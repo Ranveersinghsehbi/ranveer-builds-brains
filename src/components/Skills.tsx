@@ -4,16 +4,27 @@ import { Progress } from "@/components/ui/progress";
 const Skills = () => {
   const skills = [
     { name: "Python", level: 85, category: "Programming" },
-    { name: "Machine Learning", level: 75, category: "AI/ML" },
-    { name: "Data Analysis", level: 70, category: "Data Science" },
     { name: "Java", level: 80, category: "Programming" },
+    { name: "C", level: 75, category: "Programming" },
+    { name: "C++", level: 75, category: "Programming" },
+    { name: "Javascript", level: 70, category: "Programming" },
+    { name: "Machine Learning", level: 75, category: "AI/ML" },
     { name: "SQL", level: 75, category: "Database" },
     { name: "TensorFlow", level: 65, category: "AI/ML" },
     { name: "React", level: 70, category: "Web Development" },
     { name: "Git", level: 85, category: "Tools" },
+    { name: "Pandas", level: 80, category: "Framework and Libraries" },
+    { name: "Numpy", level: 75, category: "Framework and Libraries" },
+    { name: "Matplotlib", level: 70, category: "Framework and Libraries" },
+    { name: "Seaborn", level: 70, category: "Framework and Libraries" },
+    { name: "Scikit-learn", level: 75, category: "Framework and Libraries" },
+    { name: "Problem Solving", level: 85, category: "Soft Skills" },
+    { name: "Team Player", level: 90, category: "Soft Skills" },
+    { name: "Communication", level: 80, category: "Soft Skills" },
+    { name: "Adaptability", level: 85, category: "Soft Skills" },
   ];
 
-  const categories = ["Programming", "AI/ML", "Data Science", "Web Development", "Database", "Tools"];
+  const categories = ["Programming", "AI/ML", "Framework and Libraries", "Web Development", "Database", "Tools", "Soft Skills"];
   
   return (
     <section id="skills" className="py-20 px-4">

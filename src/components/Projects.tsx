@@ -5,31 +5,31 @@ import { ExternalLink, Github, Brain, BarChart3, Globe, Database } from "lucide-
 const Projects = () => {
   const projects = [
     {
-      title: "ML Model Predictor",
-      description: "A machine learning project that predicts house prices using regression algorithms. Built with Python, scikit-learn, and pandas for data analysis.",
-      tech: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
+      title: "House Price Prediction Model",
+      description: "A machine learning project which predicts house prices based on numerous features from dataset imported from kaggle and the model used is Linear Regression.",
+      tech: ["Python", "Scikit-learn", "Pandas", "Linear Regression"],
       icon: Brain,
       status: "Completed"
     },
     {
-      title: "Data Analytics Dashboard",
-      description: "Interactive dashboard for visualizing sales data with real-time charts and insights. Features responsive design and export capabilities.",
-      tech: ["React", "Chart.js", "Python", "Flask"],
-      icon: BarChart3,
-      status: "In Progress"
+      title: "Question Bank Setup",
+      description: "An interactive C++ project where students can answer multiple questions and get feedback on whether their answers were correct or not.",
+      tech: ["C++", "Object-Oriented Programming", "Interactive Design"],
+      icon: Database,
+      status: "Completed"
     },
     {
-      title: "Student Management System",
-      description: "Full-stack web application for managing student records with CRUD operations, authentication, and reporting features.",
-      tech: ["Java", "Spring Boot", "MySQL", "React"],
-      icon: Database,
+      title: "MovieFlix",
+      description: "Built a frontend web application which shows multiple movies and some info on them like ratings.",
+      tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+      icon: Globe,
       status: "Completed"
     },
     {
       title: "Portfolio Website",
       description: "Modern, responsive portfolio website showcasing my projects and skills. Built with React and modern web technologies.",
       tech: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      icon: Globe,
+      icon: BarChart3,
       status: "Completed"
     }
   ];
@@ -77,8 +77,13 @@ const Projects = () => {
                     ))}
                   </div>
                   
-                  <div className="flex gap-3">
-                    <Button variant="outline" size="sm" className="hover:bg-primary/10">
+                   <div className="flex gap-3">
+                    <Button 
+                      variant="outline" 
+                      size="sm" 
+                      className="hover:bg-primary/10"
+                      onClick={() => window.open('https://github.com/Ranveersinghsehbi', '_blank')}
+                    >
                       <Github className="mr-2 h-4 w-4" />
                       Code
                     </Button>
@@ -98,6 +103,7 @@ const Projects = () => {
             size="lg" 
             variant="outline"
             className="border-primary/50 hover:bg-primary/10"
+            onClick={() => window.open('https://github.com/Ranveersinghsehbi', '_blank')}
           >
             <Github className="mr-2 h-5 w-5" />
             View All Projects on GitHub

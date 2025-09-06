@@ -26,6 +26,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="hero-glow bg-gradient-to-r from-primary to-secondary hover:scale-105 transform transition-all duration-300"
+              onClick={() => window.location.href = 'mailto:singh.sehbiranveer07@gmail.com'}
             >
               <Mail className="mr-2 h-5 w-5" />
               Get In Touch
@@ -45,6 +46,7 @@ const Hero = () => {
               variant="ghost" 
               size="icon"
               className="h-12 w-12 rounded-full hover:bg-primary/20 hover:scale-110 transform transition-all duration-300"
+              onClick={() => window.open('https://github.com/Ranveersinghsehbi', '_blank')}
             >
               <Github className="h-6 w-6" />
             </Button>
@@ -52,6 +54,7 @@ const Hero = () => {
               variant="ghost" 
               size="icon"
               className="h-12 w-12 rounded-full hover:bg-primary/20 hover:scale-110 transform transition-all duration-300"
+              onClick={() => window.open('https://www.linkedin.com/in/ranveer-singh-63285635a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZXA62sRATYu9CD1gjTsIgw%3D%3D', '_blank')}
             >
               <Linkedin className="h-6 w-6" />
             </Button>
@@ -59,6 +62,7 @@ const Hero = () => {
               variant="ghost" 
               size="icon"
               className="h-12 w-12 rounded-full hover:bg-primary/20 hover:scale-110 transform transition-all duration-300"
+              onClick={() => window.location.href = 'mailto:singh.sehbiranveer07@gmail.com'}
             >
               <Mail className="h-6 w-6" />
             </Button>
