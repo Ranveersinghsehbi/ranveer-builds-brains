@@ -1,12 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
-import ranveerPortrait from "@/assets/ranveer-portrait.jpg";
 
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center px-4 py-20">
-      <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
-        {/* Text Content */}
+      <div className="max-w-4xl mx-auto text-center">
         <div className="space-y-8">
           <div className="space-y-4">
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
@@ -18,13 +16,13 @@ const Hero = () => {
             <p className="text-xl lg:text-2xl text-muted-foreground">
               Aspiring Machine Learning Engineer
             </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
               BCA student at Lovely Professional University, Phagwara, passionate about 
               artificial intelligence and machine learning. Building the future through code and innovation.
             </p>
           </div>
           
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4 justify-center">
             <Button 
               size="lg" 
               className="hero-glow bg-gradient-to-r from-primary to-secondary hover:scale-105 transform transition-all duration-300"
@@ -42,7 +40,7 @@ const Hero = () => {
             </Button>
           </div>
           
-          <div className="flex gap-6">
+          <div className="flex gap-6 justify-center">
             <Button 
               variant="ghost" 
               size="icon"
@@ -64,18 +62,6 @@ const Hero = () => {
             >
               <Mail className="h-6 w-6" />
             </Button>
-          </div>
-        </div>
-        
-        {/* Image */}
-        <div className="flex justify-center lg:justify-end">
-          <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary rounded-3xl blur-2xl opacity-30 animate-pulse"></div>
-            <img
-              src={ranveerPortrait}
-              alt="Ranveer Singh"
-              className="relative w-80 h-80 lg:w-96 lg:h-96 object-cover rounded-3xl shadow-2xl hover:scale-105 transform transition-all duration-500"
-            />
           </div>
         </div>
       </div>
