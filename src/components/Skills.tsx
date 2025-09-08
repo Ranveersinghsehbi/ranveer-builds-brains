@@ -4,7 +4,7 @@ import { Progress } from "@/components/ui/progress";
 const Skills = () => {
   const skills = [
     { name: "Python", level: 85, category: "Programming" },
-    { name: "Java", level: 80, category: "Programming" },
+    { name: "Java", level: 45, category: "Programming" },
     { name: "C", level: 75, category: "Programming" },
     { name: "C++", level: 75, category: "Programming" },
     { name: "Javascript", level: 70, category: "Programming" },
@@ -20,7 +20,7 @@ const Skills = () => {
     { name: "Scikit-learn", level: 75, category: "Framework and Libraries" },
     { name: "Problem Solving", level: 85, category: "Soft Skills" },
     { name: "Team Player", level: 90, category: "Soft Skills" },
-    { name: "Communication", level: 80, category: "Soft Skills" },
+    { name: "Communication", level: 70, category: "Soft Skills" },
     { name: "Adaptability", level: 85, category: "Soft Skills" },
   ];
 
